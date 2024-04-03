@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "zh-cn",
   title: "深秋",
   description: "这只是个普通VitePress Site -> github pages 测试",
   themeConfig: {
