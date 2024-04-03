@@ -53,10 +53,6 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
     },
-
-    markdown: {
-      lineNumbers: true,
-    }
     /*
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
