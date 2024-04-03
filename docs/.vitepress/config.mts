@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: '关于', link: '/usr/about' }
+          { text: '关于', link: '/user/about' }
         ]
       }
     ],
