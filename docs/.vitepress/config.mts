@@ -7,6 +7,8 @@ export default defineConfig({
   description: "这只是个普通VitePress Site -> github pages 测试",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/icon.svg',
+    siteTitle: 'My Custom Title',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
