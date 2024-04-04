@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "深秋~==>文档站"
+  name: "mtest文档站"
   text: '<span style="color:green">宁静致远~</span>'
   tagline: My great project tagline
   actions:

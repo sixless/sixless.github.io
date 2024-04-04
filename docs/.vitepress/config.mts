@@ -3,13 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-cn",
-  title: "深秋",
+  title: "mtest文档",
   description: "这只是个普通VitePress Site -> github pages 测试",
   srcDir: 'src',
   srcExclude: ['**/README.md', '**/TODO.md'],
   metaChunk: true, //页面元数据分离
   cleanUrls: true, //清除.html扩展名
   lastUpdated: true, //时间戳
+  head: [['link', { rel: 'icon', href: '/icon.svg' }]]
   rewrites: {
     'packages/:pkg/(.*)': ':pkg/index.md'
   },
