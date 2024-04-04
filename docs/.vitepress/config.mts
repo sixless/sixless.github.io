@@ -17,12 +17,12 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/icon.svg',
-    siteTitle: 'My Custom Title',
-   
-    
+    siteTitle: '深秋blog\'s',
 
-    
-
+    darkModeSwitchLabel: "主题",
+    sidebarMenuLabel: "菜单",
+    returnToTopLabel: "返回至顶部",
+    externalLinkIcon: true,
     search: {
       //搜索框
       provider: 'local',
@@ -30,9 +30,8 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'About', link: 'user/about'}
+      { text: '文章', link: '/markdown-examples' },
+      { text: '关于', link: '/user/about'},
     ],
 
     sidebar: [
@@ -49,10 +48,29 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sixless' }
     ],
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
+
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
     },
+
+    outline: {
+      level: [2, 6],
+      label: '页面导航'
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    }
     /*
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
