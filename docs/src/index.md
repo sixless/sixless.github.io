@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "期待星期天"
-  text: "A VitePress Site"
+  name: "深秋~==>文档站"
+  text: '<span style="color:green">宁静致远~</span>'
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -15,11 +15,18 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon:
+      src: /vitepress-logo-mini.svg
+    title: 构建
+    details: 该文档站使用 <span style="color:RoyalBlue">Vitepress</span> 构建
+    link: "https://vitepress.dev/"
+    linkText: "Learn more"
+  - icon:
+      dark: /dark-github-icon.svg
+      light: /light-github-icon.svg
+    title: 项目托管
+    details: 该文档站于<span style="color:RoyalBlue">GitHub Pages</span>部署。
+    link: "https://pages.github.com/"
+    linkText: "Learn more"
 ---
 
