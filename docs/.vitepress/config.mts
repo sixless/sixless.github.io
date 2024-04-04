@@ -10,7 +10,12 @@ export default defineConfig({
   metaChunk: true, //页面元数据分离
   cleanUrls: true, //清除.html扩展名
   lastUpdated: true, //时间戳
-  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
+  head: [
+	  ['link', { rel: 'icon', href: '/favicon.svg' }],
+	  ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+	  [ 'link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+	  ['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }]
+  ],
   rewrites: {
     'packages/:pkg/(.*)': ':pkg/index.md'
   },
