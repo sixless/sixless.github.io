@@ -10,14 +10,14 @@ export default defineConfig({
   metaChunk: true, //页面元数据分离
   cleanUrls: true, //清除.html扩展名
   lastUpdated: true, //时间戳
-  head: [['link', { rel: 'icon', href: '/icon.svg' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
   rewrites: {
     'packages/:pkg/(.*)': ':pkg/index.md'
   },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/icon.svg',
+    logo: '/favicon.svg',
     siteTitle: '深秋blog\'s',
 
     darkModeSwitchLabel: "主题",
