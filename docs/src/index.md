@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "mtest文档站"
   text: '<span style="color:green">宁静致远~</span>'
-  tagline: My great project tagline
+  tagline: '<span>{{ useData.isDark }}</span>'
   actions:
     - theme: brand
       text: Markdown Examples
@@ -29,4 +29,3 @@ features:
     link: "https://pages.github.com/"
     linkText: "Learn more"
 ---
-
