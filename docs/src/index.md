@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "mtest文档站"
   text: '<span style="color:green">宁静致远~</span>'
-  tagline: '<span>{{ useData.isDark }}</span>'
+  tagline: '{{ Vitepress }}'
   actions:
     - theme: brand
       text: Markdown Examples
