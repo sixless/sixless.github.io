@@ -2,22 +2,19 @@
 layout: doc
 ---
 
-::: info
-这只是测试
-:::
+<script setup>
+import { useData } from 'vitepress'
 
-<span v-for="i in 3">{{ i }}</span>
+const { theme, page, frontmatter } = useData()
+</script>
 
-## Markdown Content
+## Results
 
-The count is: {{ count }}
+### Theme Data
+<pre>{{ theme }}</pre>
 
-<button :class="$style.button" @click="count++">Increment</button>
+### Page Data
+<pre>{{ page }}</pre>
 
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-}
-</style>
-**112s**
+### Page Frontmatter
+<pre>{{ frontmatter }}</pre>
