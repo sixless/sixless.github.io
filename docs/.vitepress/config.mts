@@ -23,7 +23,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.svg',
-    siteTitle: '深秋blog\'s',
+    siteTitle: 'mTest',
 
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",

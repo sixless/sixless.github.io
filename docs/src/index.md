@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "mtest文档站"
-  text: '<span style="color:green">宁静致远~</span>'
+  text: '<span style="color:green;background-image:-webkit-linear-gradient(top, #bc2f08,#d75d10,#de6912);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">宁静致远~</span>'
   tagline: '{{ Vitepress }}'
   actions:
     - theme: brand
