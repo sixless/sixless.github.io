@@ -5,7 +5,7 @@ layout: doc
 <script setup>
 import { useData } from 'vitepress'
 
-const { theme, page, frontmatter } = useData()
+const { isDark, theme, page, frontmatter } = useData()
 </script>
 
 ## Results
@@ -18,3 +18,6 @@ const { theme, page, frontmatter } = useData()
 
 ### Page Frontmatter
 <pre>{{ frontmatter }}</pre>
+
+### isDark
+<pre>{{ isDark }}</pre>
